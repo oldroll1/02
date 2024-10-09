@@ -16,7 +16,7 @@ export default function Home() {
       Take Pictures With No Limit
     </h2>
     <div className="pt-12">
-      <a href="./public/oldrollv0122991.apk" download className=" px-8 py-2 bg-white rounded-sm text-l text-black">Download</a>
+      <a href="https://darkorchid-shrew-757250.hostingersite.com/oldrollv0122991.apk" download className=" px-8 py-2 bg-white rounded-sm text-l text-black">Download</a>
     </div>
       </div>
       <div className="items-center flex-col px-36 py-12 hidden lg:block">
