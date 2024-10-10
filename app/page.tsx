@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import NavbarBlack from "./components/navbar-black";
 import AlertTitle1 from "./components/alert";
 import Resizable122 from "./components/resizable";
