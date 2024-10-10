@@ -1,11 +1,9 @@
-"use client"
+import Image from "next/image";
 import NavbarBlack from "./components/navbar-black";
 import AlertTitle1 from "./components/alert";
 import Resizable122 from "./components/resizable";
-import { Checkbox } from "@/components/ui/checkbox"
-
-import Table from "./components/table";
 import Link from "next/link";
+import Table from "./components/table";
 export default function Home() {
   return (
     <div className="font-[family-name:var(--font-geist-sans)] bg-black">
@@ -18,18 +16,8 @@ export default function Home() {
         <h2 className="scroll-m-20 text-yellow-400 pb-2 text-3xl font-semibold tracking-tight first:mt-0">
       Take Pictures With No Limit
     </h2>
-    
-    <div className="pt-12 flex flex-col">
-    <div className="align-middle items-center justify-center space-x-2 py-2">
-    <Checkbox id="terms2"  />
-      <label
-        htmlFor="terms2"
-        className="text-sm font-medium leading-none peer-disabled:opacity-70"
-      >
-        Accept terms and conditions
-      </label>
-    </div>
-      <a href="https://darkorchid-shrew-757250.hostingersite.com/oldrollv0122991.apk" download className=" px-8 py-2 bg-white rounded-sm text-l text-black">Download</a>
+    <div className="pt-12">
+      <a href="./public/oldrollv0122991.apk" download className=" px-8 py-2 bg-white rounded-sm text-l text-black">Download</a>
     </div>
       </div>
       <div className="items-center flex-col px-36 py-12 hidden lg:block">
