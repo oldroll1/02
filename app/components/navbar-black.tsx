@@ -1,7 +1,6 @@
 import React from 'react'
 import PhotoCameraIcon from '@mui/icons-material/PhotoCamera';
 import Link from 'next/link';
-import Posts from '../posts/page';
 const NavbarBlack = () => {
   return (
     <div>
@@ -10,8 +9,7 @@ const NavbarBlack = () => {
         <PhotoCameraIcon /> RetroCamera.Io 
 
         </h1>
-        <Link href="/posts">
-        Posts</Link>
+       
         
       </nav>
       <div className='border-b border-white opacity-45'>
