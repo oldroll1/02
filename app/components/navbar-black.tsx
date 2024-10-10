@@ -1,6 +1,5 @@
 import React from 'react'
 import PhotoCameraIcon from '@mui/icons-material/PhotoCamera';
-import Link from 'next/link';
 const NavbarBlack = () => {
   return (
     <div>
