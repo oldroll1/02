@@ -28,7 +28,7 @@ export default function Home() {
       </div>
       <footer className="px-8 py-4 border-t border-white space-x-4">
         <Link href="/terms">
-          Terms & Conditions
+          Terms and Conditions
         </Link>
         <Link href="/contact">
         Contact Us
